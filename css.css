@@ -86,8 +86,8 @@ a:hover{
 
 
 }
-.p1{
-  clear: left;
+p1{
+  clear: left; /* i do not want this thing to work */
 }
 .middle-container{
   margin:100px 0 ;
