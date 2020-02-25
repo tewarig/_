@@ -140,21 +140,3 @@ hr{
  padding: 50px 0px 20px;
  color:#fff;
 }
-@media (max-width: 900px) {
-  .headi{
-    height:70px;
-    widht:70px;
-  }
-  .medi{
-    font-size: 250px;
-  }
-  .header{
-  font-family: 'Sacramento', cursive;
-  font-size: 140%;
-  text-align: 'center';
-  position: fixed;
-  background-color: #f3f3f3;
-
-
-  }
-}
