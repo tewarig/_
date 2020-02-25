@@ -6,6 +6,9 @@ font-family: 'Merriweather', serif;
 
 
 }
+#grad {
+  background-image: linear-gradient(to bottom right, red , blue);
+}
 .box{
 width: 100%;
 align: 'center';
@@ -136,11 +139,11 @@ hr{
 }
 @media (max-width: 700px) {
   .headi{
-    height:50px;
-    widht:50px;
+    height:70px;
+    widht:70px;
   }
   .medi{
-    font-size: 150px;
+    font-size: 250px;
   }
   .header{
   font-family: 'Sacramento', cursive;
