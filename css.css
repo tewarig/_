@@ -26,6 +26,15 @@ position: fixed;
   height:30px;
   widht:30px;
 }
+.headi{
+  height:30px;
+  widht:30px;
+}
+.headi1{
+  height:20%;
+  widht:20%;
+  border-radius: 100%;
+}
 .medi{
   font-size: 30px;
 }
