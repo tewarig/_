@@ -74,7 +74,7 @@ h2{
   color:  #000;
 }
 h3,h4{
-  color:#11999e;
+  color:#000;
 }
 .middle{
   magin: 0;
@@ -100,7 +100,7 @@ a{
   color:  #333;
 }
 a:hover{
-  color:#eaf6f6;
+  color:#000;
 }
 .skill-row
 {
@@ -122,7 +122,7 @@ p1{
   margin: auto;
 }
 hr{
-  border: dotted #66fbfb 6px;
+  border: dotted #000 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto 100px auto;
@@ -132,14 +132,15 @@ hr{
   margin: 40px auto 60px auto;
 }
 .btn{
-  background-color: #EAF6F6;
-  color: #66BFBF;
+  background-color: #r43e3e;
+  color: #3f3f3f;
 }
 .bottom-container{
-  background-color: #66bfbf;
+  background-color: #333;
  padding: 50px 0px 20px;
+ color:#fff;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .headi{
     height:70px;
     widht:70px;

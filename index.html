@@ -32,8 +32,8 @@
      <marquee>
         <img class="top-cloud"src="cloud.png" alt="cloud">
       </marquee>
-      <h1> I'm Gaurav</h1>
-      <h2>aspiring web developer</h2>
+      <h1 class="animated bounce"> I'm Gaurav</h1>
+      <h2 id="typing">aspiring web developer</h2>
 
 
     </div>
@@ -47,7 +47,7 @@
   <div class="middle-container">
     <div class="profile">
       <img class="r1" src="g1.jpeg" alt="GauravTewari's image">
-      <h2>Hello.</h2>
+      <h2>Hello!!!</h2>
           <p class="intro"> myself Gaurav, currently am doing b.tech cse from Graphi Era university.</p>
     </div>
     <hr>
@@ -76,9 +76,9 @@
 
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/gaurav-tewari-7663a1195">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/tewarig">github</a>
-    <a class="footer-link" href="https://techbuster.in">Website</a>
+    <a class="footer-link" style="color:#fff; " href="https://www.linkedin.com/in/gaurav-tewari-7663a1195">LinkedIn</a>
+    <a class="footer-link" style="color:#fff; "href="https://github.com/tewarig">github</a>
+    <a class="footer-link" style="color:#fff;" href="https://techbuster.in">Website</a>
     <p>© 2019 Gaurav Tewari</p>
   </div>
 
@@ -87,4 +87,14 @@
 </div>
 
   </body>
+  <script>
+  var i=0,text;
+  text ="aspiring web developer App Developer!! Coder!!"
+  function typing(){
+    if(i<text.length){
+      document.getElementByID("typing").innerHTML += text.charAt(i);
+
+    }
+  }
+  </script>
 </html>
