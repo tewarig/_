@@ -104,6 +104,11 @@ h2{
 h3,h4{
   color:#000;
 }
+h5,h6{
+  font-family: 'Sacramento', cursive;
+  font-size:150%;
+  color:  #000;
+}
 .middle{
   magin: 0;
 

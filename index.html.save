@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -49,7 +48,7 @@
     <div class="profile">
       <img class="r1" src="g1.jpeg" alt="GauravTewari's image">
       <h2>Hello!!!</h2>
-          <p class="intro"> myself Gaurav, currently I am doing B.tech CSE from Graphic Era University.</p>
+          <p class="intro"> Myself Gaurav, currently I am doing b.tech cserom Graphic Era university.</p>
     </div>
 
     <hr>
@@ -78,11 +77,11 @@
 
 
   <div class="bottom-container">
-    <table width="100%"  height="100%" >
+    <table width="100%"  cellpadding="10%" height="100%" >
      <tr >
        <td width="20%"><a href="index.html"><img  class="headi" src="https://image.flaticon.com/icons/svg/1946/1946488.svg" alt=></a></td>
-         <td width="20%" ><a href="search.html"> <h6>Projects</h6></a></td>
-         <td width="20%" ><a href="act.html"> <h6 style="text-decoration: none">Activities </h6></a></td>
+         <td width="20%" ><a href="search.html"> <img class="headi" src="https://image.flaticon.com/icons/svg/483/483356.svg"></a></td>
+         <td width="20%" ><a href="act.html"> <img class="headi" src="https://image.flaticon.com/icons/svg/1077/1077035.svg"></a></td>
          <td width="20%" ><a href="profile.html"><img class ="headi" src="https://image.flaticon.com/icons/svg/747/747376.svg" > </a></td>
 
          </tr>
@@ -93,7 +92,14 @@
 
 </div>
 
+</body>  <table width="100%" height="100%" >
+     <tr >
+       <td width="20%"><img  class="headi" src="https://image.flaticon.com/icons/svg/883/883787.svg" alt=><td>
+         <td width="60%" class="medi" ><B>KiloGram</b>  </td>
+         <td width="20%"  ><img class ="headi" src="https://image.flaticon.com/icons/svg/2089/2089310.svg" > </td>
 
+         </tr>
+   </table>
   <script>
   var app = document.getElementById('app');
 
