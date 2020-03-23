@@ -106,7 +106,7 @@ h3,h4{
 }
 h5,h6{
   font-family: 'Sacramento', cursive;
-  font-size:150%;
+  font-size:100%;
   color:  #000;
 }
 .middle{
@@ -170,7 +170,6 @@ hr{
 }
 .bottom-container{
   background-color: #fff;
-
  color:#fff;
  position: fixed;
  bottom: 0;
