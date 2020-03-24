@@ -24,7 +24,8 @@ position: fixed;
 }
 .headi{
   height:30px;
-  widht:30px;
+  widht:30px
+  position:absolute;
 }
 .headi{
   height:30px;
@@ -159,6 +160,11 @@ hr{
   border-bottom: none;
   width: 4%;
   margin: 100px auto 100px auto;
+}
+.hr1{
+
+
+  width: 94%;
 }
 .contract-me{
   width: 40%;
