@@ -1,5 +1,5 @@
 body{
-  body:#fff;
+body:#fff;
 margin: 0 ;
 text-align: center;
 font-family: 'Merriweather', serif;
@@ -13,9 +13,9 @@ font-family: 'Merriweather', serif;
   background-color: #F5EEEE;
 }
 .box{
-width: 100%;
-align: 'center';
-position: fixed;
+  width: 100%;
+  align: 'center';
+  position: fixed;
 }
 .img1{
   height:70px;
@@ -24,28 +24,28 @@ position: fixed;
 }
 .headi{
   height:30px;
-  widht:30px
+  width:30px;
   position:absolute;
 }
 .headi{
   height:30px;
-  widht:30px;
+  width:30px;
 }
 .headi1{
   height:15%;
-  widht:15%;
+  width:15%;
   border-radius: 100%;
 }
 .medi{
   font-size: 30px;
 }
 .header{
-font-family: 'Sacramento', cursive;
-font-size: 10%;
-text-align: 'center';
-position: fixed;
-background-color: #f3f3f3;
-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 10%;
+  text-align: 'center';
+  position: fixed;
+  background-color: #f3f3f3;
+  top: 0;
 
 }
 .bheader{
@@ -62,26 +62,24 @@ p{
 }
 .r1
 {
- border-radius: 100%;
- width:50%;
- height:50%;
+  border-radius: 100%;
+  width:60%;
+  height:50%;
 }
 .r2{
   border-radius: 100%;
   width:25%;
   float: left;
-margin-right: 30px;
+  margin-right: 30px;
 }
 .r3{
   border-radius: 100%;
   width:25%;
   float: right;
-margin-right: 30px;
+  margin-right: 30px;
 }
 .top
 {
-
-
   margin: 10;
   padding: 10;
   margin-top: 80;
@@ -94,30 +92,30 @@ h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size:590%;
-  color:  #000;
+  color:  white;
 }
 h2{
   padding: 20px;
   font-size: 2.5em;
   font-family: 'Montserrat', sans-serif;
-  color:  #000;
+  color:  white;
 }
 h3,h4{
-  color:#000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: white;
 }
 h5,h6{
   font-family: 'Sacramento', cursive;
   font-size:100%;
-  color:  #000;
+  color: white;
 }
 .middle{
   magin: 0;
 
 }
-.bottom{
+.bottom {
   margin: 0;
-
-
 }
 .span{
   text-decoration: underline;
@@ -131,7 +129,7 @@ h5,h6{
   left: 19%;
 }
 a{
-  color:  #333;
+  color:black;
 }
 a:hover{
   color:#000;
@@ -141,19 +139,22 @@ a:hover{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-
-
-
+}
+p{
+  color:white;
 }
 p1{
   clear: left; /* i do not want this thing to work */
 }
 .middle-container{
-  margin:100px 0 ;
+  margin:100px 0;
 }
 .intro{
   width: 30%;
   margin: auto;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
 }
 hr{
   border: dotted #000 6px;
@@ -162,22 +163,33 @@ hr{
   margin: 100px auto 100px auto;
 }
 .hr1{
-
-
   width: 94%;
 }
 .contract-me{
   width: 40%;
   margin: 40px auto 60px auto;
+
 }
 .btn{
-  background-color: #r43e3e;
-  color: #3f3f3f;
+  background-color: white;
+  border: none;
+  font-size:medium;
+  font-weight: 700;
+  width: 160px;
+  height: 50px;
+  border-radius: 0.6rem;
 }
+.btn:hover{
+  background-image: linear-gradient(to bottom right, red , blue);
+}
+.button-a:hover{
+  color:white;
+}
+
 .bottom-container{
   background-color: #fff;
- color:#fff;
- position: fixed;
- bottom: 0;
- width: 100%;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
